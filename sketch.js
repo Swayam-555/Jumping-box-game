@@ -45,41 +45,41 @@ function draw() {
     if(isTouching(box,surface1)){
       surface1.shapeColor = "green";
     box.shapeColor = surface1.shapeColor;
-    music.play;
+   // music.play;
     }else{
       surface1.shapeColor = "green";
       box.shapeColor = "gray";
-      music.stop;
+     // music.stop;
     }
 
     if(isTouching(box,surface2)){
       surface.shapeColor = "yellow";
     box.shapeColor = surface2.shapeColor;
-    music.play;
+   // music.play;
     }else{
       surface2.shapeColor = "yellow";
       box.shapeColor = "gray";
-      music.stop;
+     // music.stop;
     }
 
     if(isTouching(box,surface3)){
       surface3.shapeColor = "blue";
     box.shapeColor = surface3.shapeColor;
-    music.play;
+   // music.play;
     }else{
       surface3.shapeColor = "blue";
       box.shapeColor = "gray";
-      music.stop;
+     // music.stop;
     }
 
     if(isTouching(box,surface4)){
       surface4.shapeColor = "red";
     box.shapeColor = surface4.shapeColor;
-    music.play;
+    //music.play;
     }else{
       surface4.shapeColor = "red";
       box.shapeColor = "gray";
-      music.stop
+     // music.stop;
     }
 
     drawSprites();
