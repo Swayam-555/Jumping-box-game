@@ -20,9 +20,8 @@ surface2.shapeColor = "yellow"
 surface3.shapeColor = "blue"
    surface4 = createSprite(400,300,100,100);
 surface4.shapeColor = "red"
-var box_options = {
-    restitution = 1
-}
+
+
     //create box sprite and give velocity
      box = createSprite(random(20,750),100,50,50,box_options);
      box.velocityX = 3;
