@@ -24,8 +24,8 @@ surface4.shapeColor = "red"
 
     //create box sprite and give velocity
      box = createSprite(random(20,750),100,50,50);
-     box.velocityY = 3;
-
+     box.velocityY = 8;
+     box.velocityX = -1.8;
      
 
 }
